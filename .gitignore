@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Large model files
+*.pt
+*.bin
+
+# Audio and video files
+*.mp3
+*.wav
+*.m4a
+*.mp4
+
+# Generated files
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
